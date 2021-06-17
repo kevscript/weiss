@@ -1,4 +1,6 @@
-h1 {
-  color: red;
-  font-size: 80px;
-}
+@import "base/reset";
+@import "base/variables";
+@import "base/typography";
+@import "layout/container";
+@import "layout/header";
+@import "components/button";

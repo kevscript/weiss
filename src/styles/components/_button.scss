@@ -1,0 +1,32 @@
+.button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 40px;
+
+  position: relative;
+  height: 40px;
+  background: $orange;
+  color: $white;
+  border: 0;
+}
+
+.button-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 24px;
+
+  position: relative;
+  height: 40px;
+  background: $orange;
+  color: $white;
+  border: 0;
+  font-weight: 700;
+
+  img {
+    margin-left: 16px;
+  }
+}
