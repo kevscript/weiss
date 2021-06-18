@@ -3,7 +3,48 @@
   src: url("../assets/fonts/DINPro-Regular.woff") format("woff");
 }
 
+html {
+  font-size: 16px;
+}
+
 html,
 body {
   font-family: "DINPro", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 45px;
+  font-weight: 700;
+  color: $dark-blue;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 44px;
+  font-weight: 700;
+  color: $dark-blue;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: $dark-blue;
+}
+
+h5 {
+  font-size: 0.875rem;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: $light-blue;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+  color: $light-blue;
 }
