@@ -30,3 +30,16 @@
     margin-left: 16px;
   }
 }
+
+.button-icon-secondary {
+  cursor: pointer;
+  color: $orange;
+  border: 0;
+  font-size: 1rem;
+  svg {
+    margin-left: 8px;
+    path {
+      fill: $orange;
+    }
+  }
+}

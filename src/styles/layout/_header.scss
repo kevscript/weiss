@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: absolute;
   top: 64px;
   left: 50%;
   transform: translateX(-50%);
@@ -18,6 +18,9 @@
     list-style: none;
 
     &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
       position: relative;
       font-weight: 700;
@@ -33,20 +36,38 @@
         height: 2px;
         background: transparent;
         position: absolute;
-        transform: translateY(10px);
+        transform: translateY(15px);
+      }
+
+      svg {
+        margin-left: 5px;
       }
 
       &:hover {
         color: $orange;
 
         &::after {
-          content: "";
-          display: block;
-          width: 100%;
-          height: 2px;
           background: $orange;
-          position: absolute;
-          transform: translateY(10px);
+        }
+
+        svg {
+          path {
+            fill: $orange;
+          }
+        }
+      }
+    }
+
+    &__item-active {
+      color: $orange;
+
+      &::after {
+        background: $orange;
+      }
+
+      svg {
+        path {
+          fill: $orange;
         }
       }
     }
