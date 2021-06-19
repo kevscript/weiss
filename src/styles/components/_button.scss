@@ -34,12 +34,27 @@
 .button-icon-secondary {
   cursor: pointer;
   color: $orange;
+  background: transparent;
   border: 0;
   font-size: 1rem;
   svg {
     margin-left: 8px;
     path {
       fill: $orange;
+    }
+  }
+}
+
+.button-icon-ternary {
+  cursor: pointer;
+  color: $white;
+  border: 0;
+  background: transparent;
+  font-size: 1rem;
+  svg {
+    margin-left: 8px;
+    path {
+      fill: $white;
     }
   }
 }
