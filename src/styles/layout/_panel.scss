@@ -4,15 +4,13 @@
 }
 
 .panel {
-  position: relative;
-  width: 100%;
+  width: 1009px;
   box-shadow: inset;
   background: $dark-blue;
   padding-top: 98px;
   display: flex;
   justify-content: space-between;
-  box-shadow: inset -207px 0px 0px 0 $light-grey,
-    -50px 100px 0px 0px $light-grey;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), -50px 100px 0px 0px $light-grey;
 
   .panel__content {
     z-index: 4;
