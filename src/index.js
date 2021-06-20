@@ -8,3 +8,4 @@ import "./assets/item1.jpg";
 import "./assets/item2.jpg";
 import "./assets/item3.jpg";
 import "./assets/panel.jpg";
+import "./assets/career.jpg";
