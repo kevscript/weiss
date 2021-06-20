@@ -29,6 +29,13 @@
   img {
     margin-left: 16px;
   }
+
+  svg {
+    margin-left: 16px;
+    path {
+      fill: $white;
+    }
+  }
 }
 
 .button-icon-secondary {
