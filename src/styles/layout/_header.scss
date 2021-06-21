@@ -1,5 +1,6 @@
 .header {
   position: absolute;
+  z-index: 999;
   top: 64px;
   left: 50%;
   transform: translateX(-50%);
@@ -44,12 +45,8 @@
       }
 
       &:hover {
+        transition: all 0.15s linear;
         color: $orange;
-
-        &::after {
-          background: $orange;
-        }
-
         svg {
           path {
             fill: $orange;
