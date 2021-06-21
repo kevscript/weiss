@@ -11,3 +11,5 @@ import "../assets/panel.jpg";
 import "../assets/career.jpg";
 import "../assets/logo-white.svg";
 import "../assets/favicon.svg";
+
+import "./menu";
