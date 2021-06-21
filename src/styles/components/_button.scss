@@ -11,6 +11,10 @@
   background: $orange;
   color: $white;
   border: 0;
+
+  &:hover {
+    background: $dark-orange;
+  }
 }
 
 .button-icon {
@@ -26,6 +30,7 @@
   border: 0;
   font-weight: 700;
   font-size: 1rem;
+  transition: all 0.15s linear;
 
   img {
     margin-left: 16px;
@@ -37,6 +42,11 @@
       fill: $white;
     }
   }
+
+  &:hover {
+    background: $dark-orange;
+    transition: all 0.15s linear;
+  }
 }
 
 .button-icon-secondary {
@@ -46,11 +56,22 @@
   border: 0;
   font-size: 1rem;
   font-weight: 500;
+  transition: all 0.15s linear;
 
   svg {
     margin-left: 8px;
     path {
       fill: $orange;
+    }
+  }
+
+  &:hover {
+    transition: all 0.15s linear;
+    color: $dark-orange;
+    svg {
+      path {
+        fill: $dark-orange;
+      }
     }
   }
 }
@@ -62,11 +83,22 @@
   background: transparent;
   font-size: 1rem;
   font-weight: 500;
+  transition: all 0.15s linear;
 
   svg {
     margin-left: 8px;
     path {
       fill: $white;
+    }
+  }
+
+  &:hover {
+    transition: all 0.15s linear;
+    color: $light-grey;
+    svg {
+      path {
+        fill: $light-grey;
+      }
     }
   }
 }
