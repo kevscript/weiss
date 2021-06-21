@@ -4,7 +4,8 @@
   flex-direction: row;
   align-items: center;
   padding: 0px 40px;
-
+  font-size: 1rem;
+  font-weight: 700;
   position: relative;
   height: 40px;
   background: $orange;
@@ -18,13 +19,13 @@
   flex-direction: row;
   align-items: center;
   padding: 0px 24px;
-
   position: relative;
   height: 40px;
   background: $orange;
   color: $white;
   border: 0;
   font-weight: 700;
+  font-size: 1rem;
 
   img {
     margin-left: 16px;
@@ -44,6 +45,8 @@
   background: transparent;
   border: 0;
   font-size: 1rem;
+  font-weight: 500;
+
   svg {
     margin-left: 8px;
     path {
@@ -58,6 +61,8 @@
   border: 0;
   background: transparent;
   font-size: 1rem;
+  font-weight: 500;
+
   svg {
     margin-left: 8px;
     path {

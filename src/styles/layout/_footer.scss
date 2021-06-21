@@ -34,6 +34,7 @@
 
         p {
           color: $light-grey;
+          font-weight: 400;
         }
       }
     }
@@ -51,6 +52,10 @@
     .footer__links {
       display: flex;
       color: $light-grey;
+
+      .footer__link {
+        cursor: pointer;
+      }
 
       .footer__link:not(:first-of-type) {
         padding: 0 8px;
