@@ -10,3 +10,4 @@ import "./assets/item3.jpg";
 import "./assets/panel.jpg";
 import "./assets/career.jpg";
 import "./assets/logo-white.svg";
+import "./assets/favicon.svg";
