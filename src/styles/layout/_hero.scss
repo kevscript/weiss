@@ -44,3 +44,31 @@
     }
   }
 }
+
+@media (max-width: 880px) {
+  .hero-section {
+    box-shadow: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    &__picture {
+      .hero__img__container {
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

@@ -52,3 +52,32 @@
     }
   }
 }
+
+@media (max-width: 880px) {
+  .grid {
+    padding-top: 100px;
+
+    &__intro {
+      margin: 0 auto;
+      text-align: center;
+
+      p {
+        margin: 0 auto;
+      }
+    }
+
+    &__items {
+      flex-direction: column;
+      align-items: center;
+
+      .grid__item {
+        text-align: center;
+        max-width: 80%;
+      }
+
+      .grid__item:not(:last-of-type) {
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
