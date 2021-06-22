@@ -56,3 +56,32 @@
     }
   }
 }
+
+@media (max-width: 880px) {
+  .section-panel {
+    box-shadow: none;
+    background: $dark-blue;
+  }
+
+  .panel {
+    box-shadow: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+    .panel__content {
+      text-align: center;
+      margin: 0 auto;
+
+      p {
+        margin: 0 auto;
+      }
+    }
+
+    .panel__img__container {
+      position: relative;
+    }
+  }
+}

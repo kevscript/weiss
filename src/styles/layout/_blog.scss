@@ -55,3 +55,44 @@
     }
   }
 }
+
+@media (max-width: 880px) {
+  .section-blog {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .blog {
+    .blog__intro {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .blog__intro__description {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    }
+
+    .blog__articles {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+      .blog__articles__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .blog__article {
+          max-width: 80%;
+          padding: 25px 0;
+        }
+
+        .blog__article:not(:last-of-type) {
+          border-bottom: 1px solid rgba($dark-blue, 0.3);
+        }
+      }
+    }
+  }
+}
